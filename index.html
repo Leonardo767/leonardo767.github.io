@@ -109,14 +109,14 @@
             <p class="text-white font-weight-light mb-2">
               Motivation: while a 
               Resume is a practical introductory medium, it
-              isn't useful for presenting the content it
+              obviously isn't useful for presenting the content it
               alludes to.
             </p>
             </p>
           </div>
           <!-- Resume/Links -->
           <div class="row" style="margin: 1rem 0rem;">
-            <div class="col-4" style="background-color: rgba(75,75,75,0.5); padding: 10px; border-radius: 8px; margin: 0.25rem 0.25rem 0.25rem 0rem;">
+            <div class="col-4" style="background-color: rgba(75,75,75,0.5); padding: 10px; border-radius: 8px; margin: 0.25rem 0.5rem 0.25rem 0rem;">
               <div class="row justify-content-center">
                   <a class="btn btn-light btn-xl" href="docs/Leonardo Pinero-Perez.pdf" target="_blank"
                     >Resume</a
@@ -128,7 +128,7 @@
                     >
               </div>
             </div>
-            <div class="col-auto" style="background-color: rgba(75,75,75,0.5); padding: 10px; border-radius: 8px; margin: 0.25rem 0.5rem;">
+            <div class="col-auto" style="background-color: rgba(75,75,75,0.5); padding: 10px; border-radius: 8px; margin: 0.25rem 0.5rem 0.25rem 0rem;">
               <a 
               href="https://www.linkedin.com/in/leonardo-pinero-perez/" 
               class="text-white-50 mb-5 fab fa-linkedin contact-link">
@@ -136,6 +136,10 @@
               <a 
               href="https://github.com/Leonardo767" 
               class="text-white-50 mb-5 fab fa-github contact-link">
+              </a>
+              <a 
+              href="https://www.researchgate.net/profile/Leonardo_Pinero-Perez" 
+              class="text-white-50 mb-5 fab fa-researchgate contact-link">
               </a>
               <a 
               href="https://www.instagram.com/leonardo_pinero/" 
@@ -165,10 +169,15 @@
                     The introduced methodology uses geometry and optimization to minimize the deviation from the original flight path while 
                     maximizing the amount of time the target is within the range of sight of the vehicle.
                 </p>
-                <div class="col-4" style="background-color: rgba(75,75,75,0.5); padding: 10px; border-radius: 8px;">
-                  <div class="row justify-content-center">
-                      <a class="btn btn-light btn-xl" href="https://arc.aiaa.org/doi/10.2514/6.2019-2833" target="_blank"
-                        >Read Paper <i class="fa fa-angle-double-right"></i> </a
+                <div class="row" style="padding: 0px 1rem;">
+                  <div class="col-3" style="padding: 10px; border-radius: 8px;">
+                    <a class="btn btn-light btn-xl" href="https://arc.aiaa.org/doi/10.2514/6.2019-2833" target="_blank"
+                      >Read Paper <i class="fa fa-angle-double-right"></i> </a
+                    >
+                  </div>
+                  <div class="col-3" style="padding: 10px; border-radius: 8px;">
+                      <a class="btn btn-light btn-xl" href="https://github.com/Leonardo767/aiaa2019-publication" target="_blank"
+                      >View Repo <i class="fa fa-angle-double-right"></i> </a
                       >
                   </div>
                 </div>
@@ -176,21 +185,23 @@
             </div>
             <div class="row showcase-project">
               <div class="col-md-4 justify-content-center" style="padding: 1rem;">
-                <img src="img/portfolio/thumbnails/AIAA paper.JPG" class="img-fluid" style="max-width: auto;">
+                <img src="img/portfolio/thumbnails/epsilon-greedy.png" class="img-fluid" style="max-width: auto;">
               </div>
               <div class="col-md-8 justify-content-left" style="padding: 1rem;">
                 <h2 class="text-light mt-0">18 Aug 2019: &epsilon;-greedy Optimization</h2>
                 <hr class="divider-left" />
                 <p class="text-white mb-4">
-                  Classic textbook implementation.
+                  A weekend project to implement an introductory example of the trade-off between exploration 
+                  exploitation. This is based on the equations found in the 2nd chapter of Sutton and Barlo's 
+                  RL text (2<sup>nd</sup> edition).
                 </p>
-                <div class="col-4" style="background-color: rgba(75,75,75,0.5); padding: 10px; border-radius: 8px;">
-                  <div class="row justify-content-center">
-                      <a class="btn btn-light btn-xl" href="https://github.com/Leonardo767/epsilon-greedy" target="_blank"
+                <div class="row" style="padding: 0px 1rem;">
+                    <div class="col-3" style="padding: 10px; border-radius: 8px;">
+                        <a class="btn btn-light btn-xl" href="https://github.com/Leonardo767/epsilon-greedy" target="_blank"
                         >View Repo <i class="fa fa-angle-double-right"></i> </a
-                      >
+                        >
+                    </div>
                   </div>
-                </div>
               </div>
             </div>
           </div>
@@ -212,13 +223,40 @@
     <section class="page-section bg-primary" id="about">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-lg-8 text-center">
+          <div class="col-md-8 text-center">
             <h2 class="text-white mt-0">About Me</h2>
             <hr class="divider light my-4" />
             <p class="text-white-50 mb-4">
-              I work in flight control law development at Bell, in support of the 525 Relentless Helicopter Program. 
-              My interests include control theory, machine learning, and backpacking.
+              I work in flight control law development at Bell, in support of the 525 Relentless 
+              Helicopter Program, the world's first civilian fly-by-wire helicopter. I previously 
+              interned at Bell as a structural analyst supporting the unmanned MQ-8C Fire Scout Program.
+              My interests include control theory, machine learning, reading sci-fi, and backpacking.
             </p>
+            <p class="text-white-50 mb-4">
+              My undergraduate honors thesis involved optimizing sizing parameters of trans-atmospheric 
+              vehicles for orbital inclination-change capability. During my final undergraduate 
+              semester, I conducted research under Dr. David Hullender, studying non-Newtonian 
+              flow through an annular ring. This stems from an honors project in the previous 
+              semester, which called for designing control logic for a variable-displacement pump to 
+              maximize flow and pressure DC gains from an unknown, time-variant system such as a 
+              hydraulic fracturing well. While at UT Arlington, I served as the President of the 
+              American Helicopter Society student chapter and functioned as the Treasurer of the 
+              American Institute of Aeronautics and Astronautics student chapter.
+            </p>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="row" style="padding: 1rem;">
+              <img
+              class="img-fluid"
+              src="img/profile-pic.jpg"
+              alt=""
+              style="
+              border-style: solid;
+              border-color: white;
+              max-width: auto;
+              margin: auto;
+              "
+            />
           </div>
         </div>
       </div>

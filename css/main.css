@@ -10443,7 +10443,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .text-white-50 {
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .text-hide {
@@ -10571,6 +10571,15 @@ hr.divider {
   border-color: #fff;
 }
 
+hr.divider-left {
+  display: block;
+  max-width: 10rem;
+  border-width: 0.2rem;
+  border-color: #fff;
+  margin-left: 0px;
+  margin-bottom: 0.5rem;
+}
+
 hr.light {
   border-color: #fff;
 }
@@ -10580,7 +10589,7 @@ hr.light {
 }
 
 .btn-xl {
-  padding: 1.25rem 2.25rem;
+  padding: 0.75rem 1rem;
   font-size: 0.85rem;
   font-weight: 500;
   text-transform: uppercase;
@@ -10589,7 +10598,7 @@ hr.light {
 }
 
 .page-section {
-  padding: 8rem 0;
+  padding: 2rem 0;
 }
 
 #mainNav {
@@ -10661,12 +10670,12 @@ hr.light {
 
 header.masthead {
   padding-top: 10rem;
-  padding-bottom: calc(10rem - 72px);
+  padding-bottom: calc(10rem - 72px); 
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(100, 100, 100, 0)), to(rgba(100, 100, 100, 0))), url("../img/bg-masthead.jpg");
   background: linear-gradient(to bottom, rgba(100, 100, 100, 0) 0%, rgba(100, 100, 100, 0) 100%), url("../img/bg-masthead.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-size: cover;
 }
 
@@ -10753,4 +10762,31 @@ header.masthead h1 {
   
 }
 
+.showcase-project {
+  padding: 1rem;
+  margin: 1rem;
+  background-color: rgba(100,100,100,0.5);
+  border-radius: 0.5rem;
+}
 
+.custom-cover {
+  padding-top: 4.5rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(100, 100, 100, 0)), to(rgba(100, 100, 100, 0))), url("../img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(100, 100, 100, 0) 0%, rgba(100, 100, 100, 0) 100%), url("../img/bg-masthead.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.contact-link {
+  font-size: 1.8rem;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.contact-link:hover {
+  font-size: 1.8rem;
+  color: white;
+  text-decoration: none;
+}
